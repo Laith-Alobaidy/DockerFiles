@@ -1,0 +1,5 @@
+#THIS IS A TEST DOCKERFILE FOR UBUNTU 19.04
+FROM ubuntu:19.04
+LABEL "maintainer laith@laith.info"
+RUN apt-get update -y && apt install htop
+#eot
